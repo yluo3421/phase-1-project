@@ -13,6 +13,16 @@ body {
 button {
     font-size: 7px;
 }
+
+
+
+#img-shell-sort-gif {
+    display: block;
+}
+
+#img-selection-sort-gif {
+    display: block;
+}
   
 #comment-list {
     overflow: scroll;
