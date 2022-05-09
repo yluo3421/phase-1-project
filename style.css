@@ -2,14 +2,35 @@ html {
     height: 100%;
     width: 100%;
     font-family: "Titillium Web", sans-serif;
-  }
+}
 
-  body {
+body {
     min-height: 100%;
     min-width: 100%;
     background: linear-gradient(pink, violet);
-  }
+}
   
-  button {
+button {
     font-size: 7px;
-  }
+}
+  
+#comment-list {
+    overflow: scroll;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    background: repeating-linear-gradient
+    45deg,
+    transparent,
+    transparent 10px,
+    lavender 10px,
+    lavender 20px
+}
+
+#comment-list li {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
