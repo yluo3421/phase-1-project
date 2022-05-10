@@ -16,26 +16,39 @@
         <header>
             <h1>Create Your Own Profile Here</h1>
             <nav>
+                <div>
+                    <img
+                        id="profile-image"
+                        src="assets/image-placeholder.jpg"
+                    />
+                    <button id="switchAvatar">Switch Avatar</button>
+                </div>
                 <form id="profile-form">
-                    <div>
-                        <img
-                            id="profile-image"
-                            src="assets/image-placeholder.jpg"
-                        />
-                    </div>
+                    
                     <div>
                     <label for="User-Name">User Name:</label><br>
                     <input type="text" id="form-user-name" name="user-name"><br>
                     </div>
                     
-                    <input type="submit" value="Create My Profile"/>
+                    <input type="submit"  value="Create My Profile"/>
+                    <!--
+                    <button id="input-profile-button">Create My Profile</button>
+                    --> 
                 </form>
     
             </nav>
         </header>
 
         <main>
-            
+            <div class="introduction">
+                <h1>Algorithm Compare Lab</h1>
+                <p>A sorting algorithm is a method for reorganizing a large 
+                    number of items into a specific order, 
+                    such as alphabetical, highest-to-lowest value or 
+                    shortest-to-longest distance. This lab helps you compare two algorithm
+                    and see who is faster.
+                </p>
+            </div>
             <div class="left-gif-compare">
                 <h2>Algorithm 1</h2>
                 <label for="algos">Choose a Sorting Algorithm on the left:</label>
@@ -54,6 +67,7 @@
                 
             </div>
             <div class="right-gif-compare">
+                <h2>Algorithm 2</h2>
                 <label for="algos">Choose a Sorting Algorithm on the right:</label>
                 <select name="Algorithms" id="right-gif-dropdown">
                     <option value="img-selection-sort-gif">Selection Sort</option>

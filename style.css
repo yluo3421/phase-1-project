@@ -15,11 +15,13 @@ body {
   
   header {
     float: left;
-    width: 225px;
+    width: 100%;
     height: auto;
     border-radius: 0 0 6px 0;
     padding: 10px;
     margin-right: 10px;
+    background: white;
+    
   }
   
   h1 {
@@ -28,7 +30,12 @@ body {
     margin: 10px 0;
     font-family: "Great Vibes", cursive;
   }
-  
+  #profile-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+
   h2 { 
     font-family: "Great Vibes", cursive;
   }
@@ -45,6 +52,9 @@ body {
     /* float: left; */
     margin-left: 100px;
     width: 800px;
+    background: rgba(128, 226, 131, 0.3);
+    background-size: cover;
+    background-position: center;
   }
   
   #cake-list {
@@ -80,9 +90,14 @@ body {
     color: white;
   }
   
+  .introduction {
+      width: 800px;
+  }
+
   .left-gif-compare {
       width: 50%;
       float:left;
+      
   }
  
   #img-shell-sort-gif {
@@ -93,6 +108,7 @@ body {
   }
   .right-gif-compare {
       margin-left: 50%;
+      
 
   }
   .algo-compare h2 {
