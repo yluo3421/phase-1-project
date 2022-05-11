@@ -94,16 +94,24 @@ body {
       width: 800px;
   }
 
+    a {
+    -webkit-transition: color 2s;
+    transition: color 2s;
+    }
+    a:hover {
+        background-color: yellowgreen;
+    }
+
   .left-gif-compare {
       width: 50%;
       float:left;
       
   }
  
-  #img-shell-sort-gif {
+  #img-left-sort {
       width: 400px;
   }
-  #img-selection-sort-gif {
+  #img-right-sort {
       width: 400px;
   }
   .right-gif-compare {
@@ -159,4 +167,25 @@ body {
     padding: 20px;
     margin-bottom: 20px;
   }
+
+  #flex-container {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+  }
   
+#raw-username {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#raw-review {
+    background-color: rgba(128, 226, 131, 0.3);
+    border-radius: 2px;
+    width: 400px;
+}
+
