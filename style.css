@@ -3,9 +3,11 @@ body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    background-color: thistle;
+    
     display: flex;
     flex-direction: row;
+    background: url("https://media.istockphoto.com/vectors/digital-sequence-code-structure-with-glow-science-concept-and-nano-vector-id1255207941?k=20&m=1255207941&s=612x612&w=0&h=8H49MAhUowczvEyL6lKtvcwiD7GnpUwqdyZqdj_wru0=");
+    background-size:cover
   }
   
   nav {
@@ -19,8 +21,9 @@ body {
     height: auto;
     border-radius: 0 0 6px 0;
     padding: 10px;
-    margin-right: 10px;
-    background: white;
+    margin-right: 0px;
+    background: url("https://media.istockphoto.com/vectors/digital-sequence-code-structure-with-glow-science-concept-and-nano-vector-id1255207941?k=20&m=1255207941&s=612x612&w=0&h=8H49MAhUowczvEyL6lKtvcwiD7GnpUwqdyZqdj_wru0=");
+    background-size:cover;
     
   }
   
@@ -28,7 +31,7 @@ body {
     font-size: 52px;
     color: cornflowerblue;
     margin: 10px 0;
-    font-family: "Great Vibes", cursive;
+    font-family: "Bebas Neue", cursive;
   }
   #profile-image {
     width: 160px;
@@ -37,7 +40,7 @@ body {
   }
 
   h2 { 
-    font-family: "Great Vibes", cursive;
+    font-family: 'Hurricane', cursive;
   }
   
   ul {
@@ -50,11 +53,10 @@ body {
   
   main {
     /* float: left; */
-    margin-left: 100px;
+    margin-left: 0px;
     width: 800px;
-    background: rgba(128, 226, 131, 0.3);
-    background-size: cover;
-    background-position: center;
+    
+    visibility: hidden;
   }
   
   #cake-list {

@@ -39,7 +39,8 @@ function createProfile(e) {
     //console.log(userNameInput.value);
     i++;
     profileObj[`user${i}`] = {"id":`${i}`,"userName":userNameInput.value, "imgURL":avatar.src}
-    console.log(profileObj);
+    //console.log(profileObj);
+    document.querySelector("main").style.visibility = "visible";
     
 }
 
@@ -71,7 +72,7 @@ function renderReview(review) {
             width="50" height="60"
         >
     </div>
-    <div class="raw-item" id="raw-username">${profileObj[userNumber]["username"]}</div>
+    <div class="raw-item" id="raw-username">${profileObj[userNumber]["userName"]}</div>
     <div class="raw-item" id="raw-review">${review}</div>
     `;
     
