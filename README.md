@@ -1,7 +1,7 @@
 # README [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
 # Introduction
 This single page application will help users create their own profile, learn the basic algorithms through animation, and share comments of which algorithm they like most. The page also has comment for users to communicate with each other.
-
+ 
 # Features
 * Create user's own profile
 * Providing cat's image as avatar, clicking the button will give new random cat image for user.
